@@ -1,0 +1,69 @@
+DSCI 5180-INTRODUCTION TO THE BUSINESS DECISION PROCESS
+FINAL PROJECT 
+Link: Restaurant Business Rankings 2020 (kaggle.com)
+
+
+Dataset: Restaurant Business Rankings 2020
+
+Dataset Description:
+This data set has been gathered from https://www.kaggle.com/datasets/michau96/restaurant-business-rankings-2020. The Data set deals with the Restaurant Business Rankings 2020. I am going to conduct a detailed Analysis of the Top250.csv. Where I have taken the whole list, gathering the 250 Restaurants as a sample for the project. The Top250 restaurant dataset helps to find the Normal distribution and Central Limit theorem. I have specially selected the dataset to the average number of sales, and units over a period of time.
+Dataset 1: 50 Startups
+Dataset 2: Top 250 Restaurants
+MODULE – 1:
+The mean and standard deviation of the sales column are 1242.74 and 3358.492. Find the probability of sales greater than 3000.
+Solution:
+Sample Mean = 1242.74
+Standard deviation = 3358.492
+P(z>5500000) = (3000-1242.74)/3358.492
+           = 0.523
+The probability of mean sales being greater than 3000 is 52.32%.
+MODULE – 2:
+From the dataset, the mean and population standard deviation 1242.74 and 3358.492. Construct a 95% confidence interval for a sample of 251 and round your answer to two decimal points.
+Solution:
+Sample mean = 1242.74
+Std deviation = 3358.492
+Sample Size n = 251
+Alpha value = 0.05
+Critical Value= 1.96
+Formula = 1242.74 (+-) 1.96 * 3358.49/sqrt (251)
+Upper Limit= 1658.233
+Lower Limit= 827.247
+
+MODULE – 3:
+From the dataset, there is a claim that most of houses are having an sales greater than 2000. A random sample of 100 sales are chosen and their mean and sample standard deviation are calculated as 2768.78 and 4955.023. Perform hypothesis test at 0.05 level of significance to conclude whether there is sufficient evidence to reject or fail to reject the null hypothesis test.
+Solution:
+Sample mean = 2768.78
+Std deviation = 4955.023
+Sample size = 100
+Null hypothesis H0 <= 2000
+Alternative Hypothesis Ha > 2000
+It is a right tailed test
+Formula = (2768.78-2000)/4955.023/sqrt (100)
+Test Statistic t = 1.551
+Reject H0 if t > 1.66
+Since the test statistic is less than 1.66, so we fail to reject the null hypothesis.
+
+
+MODULE – 5:
+https://www.kaggle.com/datasets/karthickveerakumar/startup-logistic-regression/
+Analyse the dataset and predict the profit as a function of R&D Spend, Administration, and Marketing spend using regression analysis and write down the regression equation. Also, find the solution for the following questions.
+
+ 
+Solution:
+Multiple Linear Regression Equation:
+Profit = 50122.1929 + 0.8057(R&D Spend) -0.0268(Administration) + 0.02722 (Marketing Spend)
+1.What is the coefficient of determination for this model, R2? Round your answer to four decimal places.
+Answer: 0.95
+2. What is the adjusted coefficient of determination for this model, Ra2? Round your answer to four decimal places.
+Answer: 0.94
+3. How many independent variables are used in this model?
+Answer: 3
+4. Which statistic is most appropriate for the above scenario to determine the usefulness of the regression model and why?
+Answer:  Ra2 since the model is a multiple linear regression model.
+5. What is the estimated variance of error?
+Answer: 85236007
+6. What is the value of a dependent variable?
+Answer: 1624588173
+
+
+
